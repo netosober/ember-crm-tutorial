@@ -14,7 +14,7 @@ class Api::V1::LeadsController < ApplicationController
   end
 
   def update
-    respond_with lead.update(lead_paramn)
+    respond_with lead.update(lead_params)
   end
 
   def destroy
